@@ -5,6 +5,8 @@
 #   $ sudo gem install arduino_firmata
 #   $ sudo gem install mqtt
 #   $ sudo gem install pit
+#   $ sudo usermod -a -G dialout pi
+#   $ EDITOR=vim ./mqtt_firmata_analog_read_pub.rb
 #
 require 'arduino_firmata'
 require 'mqtt'
